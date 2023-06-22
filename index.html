@@ -71,6 +71,7 @@
         background-position: center center;
         justify-content: center;
         align-items: center;
+        position: relative;
       }
 
       h1 {
@@ -86,6 +87,16 @@
         font-weight: 300;
       }
 
+      nav {
+        background-color: #EB008B;
+        border: 2px solid #2E3092;
+        padding: 1em;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+      }
+
       @keyframes background-anim {
           0%{background-color: #EB008B}
           50%{background-color: #2E3092}
@@ -94,6 +105,7 @@
     </style>
   </head>
   <body>
+    <nav>I'm navigation!</nav>
     <h1>
       Mesmerize Playing Cards
     </h1>
